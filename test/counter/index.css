@@ -1,0 +1,106 @@
+.counter{
+  margin-top: 100px;
+}
+
+.counter-item{
+  height: 200px;
+  width: 150px;
+  padding: 5px;
+  border: thin solid blue;
+  border-radius: 10px;
+}
+
+.counter-item .inner-border{
+  border: 3px solid black;
+  height: 100%;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+
+.counter-item .bottom-tag{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 2px solid black;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 10;
+  background-color: red;
+  bottom: -25px;
+}
+
+.counter-item .top-tag{ 
+  width: 50%;
+  top: -10px;
+  height: 2px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.counter-item .top-tag .top-tag-wrapper .rectangle{
+  height: 20px;
+  background-color: blue;
+  color: white;
+}
+
+.counter-item .top-tag .top-tag-wrapper .round{
+  height: 20px;
+  border-radius: 50%;
+  background: blue;
+  top: 10px;
+  left: 0;
+  width: 100%;
+  z-index: -5;
+}
+
+.counter-item .top-tag .top-tag-wrapper .left-triangle{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0px 10px 10px 5px;
+  border-color: transparent transparent #007bff transparent;
+  top: 0px;
+  left: -5px;
+  z-index: -5;
+}
+
+.counter-item .top-tag .top-tag-wrapper .right-triangle{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 10px 0px 6px;
+  border-color: transparent transparent transparent #007bff;
+  top: 0;
+  right: -15px;
+  z-index: -5;
+}
+
+.counter-item .counter-number{
+  color: white;
+  background-color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  font-size: 120px;
+  z-index: -6;
+  top: -140px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.connect-round-item{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: red;
+  margin: auto 0;
+}
+
+.connect-line-item{
+  width: 20px;
+    height: 3px;
+    background: black;
+    margin: auto 0;
+}

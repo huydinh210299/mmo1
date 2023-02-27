@@ -1,0 +1,27 @@
+.special-border-wrapper .top-conner{
+  background-color: green;
+}
+
+.special-border-wrapper .top-conner .conner-item{
+  height: 80px;
+  background: white;
+  border-bottom-left-radius: 70px;
+}
+
+.special-border-wrapper .bot-conner{
+  background-color: green;
+}
+
+.special-border-wrapper .bot-conner .conner-item{
+  height: 80px;
+  background: white;
+  border-top-right-radius: 70px;
+}
+
+.special-border-wrapper .main-content{
+  height: 300px;
+  width: 100vw;
+  border-bottom-left-radius: 70px;
+  border-top-right-radius: 70px;
+  background-color: green;
+}

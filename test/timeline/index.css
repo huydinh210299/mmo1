@@ -1,0 +1,82 @@
+.timeline {
+  width: 100%;
+  max-width: 800px;
+  background: #fff;
+  padding: 20px 50px;
+  position: relative;
+  margin: auto;
+}
+.timeline:before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  width: 4px;
+  background: #ddd;
+}
+.timeline:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.timeline .entry {
+  clear: both;
+  text-align: left;
+  position: relative;
+}
+.timeline .entry .title {
+  margin-bottom: 0.5em;
+  float: left;
+  text-align: right;
+  position: relative;
+}
+.timeline .entry .title:before {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 100%;
+  top: 15%;
+  right: -12px;
+  z-index: 99;
+}
+
+.timeline .entry .title.header:before {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: yellow;
+  border-radius: 100%;
+  top: 15%;
+  right: -17px;
+  z-index: 99;
+}
+.timeline .entry .title h3 {
+  margin: 0;
+  font-size: 120%;
+}
+.timeline .entry .title p {
+  margin: 0;
+  font-size: 100%;
+}
+.timeline .entry .body {
+  padding-left: 30px;
+}
+.timeline .entry .body p {
+  line-height: 1.4em;
+}
+.timeline .entry .body p:first-child {
+  margin-top: 0;
+  font-weight: 400;
+}
+.timeline .entry .body ul {
+  color: #aaa;
+  padding-left: 0;
+  list-style-type: none;
+}
+.timeline .entry .body ul li:before {
+  content: "–";
+  margin-right: 0.5em;
+}
